@@ -1,0 +1,21 @@
+html{
+
+}
+
+body{font-family: 'montserrat',sans-sarif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto',sans-sarif;
+}
+header{
+    background-image: url("image/car11.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-container{
+    height: 100vh;
+}

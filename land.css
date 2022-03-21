@@ -1,0 +1,37 @@
+div.p1{background: linear-gradient(-90deg, pink,aqua); width: 100%; height: 400px;}
+ .px{text-align: center; font-size: 100px; padding-top: 70px; color:blue;}
+ .py{text-align: center; color: rgb(255, 0, 43);}
+ div div {text-align:right; margin-right: 20px; padding-right: 20px;}
+ /*navigation Var */
+ .p2{ margin: 0; padding: 0; list-style: none; text-align: left;}
+ .p2 li{display: inline-block; margin-left: 10px; position: relative; }
+ .p3 a{background: green; color: lime; padding: 10px 25px; display: block; 
+text-decoration: none; border-radius: 5px; transition: 3s;}
+.p3 a:hover{background: darkblue; color: white; }
+ul ul{position: absolute; left: -999999; top: 40px; width: 100px ; display: none;}
+ul li:hover .p4{left: 0; }
+ul .p4 a{border-radius: 0; background: rgb(248, 166, 12); border-bottom: 2px solid orchid;}
+ul .p4 a:hover{background: yellow;}
+
+#main{display: grid; 
+grid-template-columns: 50% 50%;
+grid-gap: 1em;
+}
+
+.child{ padding: 10px ; color: white; text-align: left;}
+.child:nth-child(odd){background: blueviolet; }
+.child:nth-child(1){background: lightseagreen;}
+.child:nth-child(2){background:lightskyblue;}
+.child:nth-child(3){background:lightseagreen;}
+.child:nth-child(4){background: lightyellow;}
+ .pz{}  
+
+
+
+
+.imge{background: linear-gradient(-90deg , green,blue); width: 100%; height: 150px;}
+.imge img{}
+
+
+
+
